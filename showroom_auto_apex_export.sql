@@ -34,7 +34,7 @@ prompt APPLICATION 259863 - Showroom Auto Management
 --   Application:     259863
 --   Name:            Showroom Auto Management
 --   Date and Time:   10:43 Wednesday April 29, 2026
---   Exported By:     EFTIMDARIUS24@STUD.ASE.RO
+--   Exported By:     USER
 --   Flashback:       0
 --   Export Type:     Application Export
 --     Pages:                      7
@@ -1026,7 +1026,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_show_notify=>'Y'
 ,p_download_formats=>'CSV:HTML:XLSX:PDF'
 ,p_enable_mail_download=>'Y'
-,p_owner=>'EFTIMDARIUS24@STUD.ASE.RO'
+,p_owner=>'USER'
 ,p_internal_uid=>164349643715777351544
 );
 wwv_flow_imp_page.create_worksheet_column(
